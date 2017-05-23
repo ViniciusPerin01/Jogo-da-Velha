@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.elisabeth.jogodavelha.ActMain">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="70dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:tag="quadrado1"
+            android:onClick="Verificar"
+            android:enabled="false"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:tag="quadrado2"
+            android:onClick="Verificar"
+            android:enabled="false"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:tag="quadrado3"
+            android:onClick="Verificar"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:tag="quadrado4"
+            android:onClick="Verificar"
+            android:enabled="false"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:tag="quadrado5"
+            android:onClick="Verificar"
+            android:enabled="false"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:tag="quadrado6"
+            android:onClick="Verificar"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="80dp">
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:tag="quadrado7"
+        android:onClick="Verificar"
+        android:enabled="false"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:tag="quadrado8"
+        android:onClick="Verificar"
+        android:enabled="false"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:tag="quadrado9"
+        android:onClick="Verificar"
+        android:enabled="false"/>
+    </LinearLayout>
+
+    <Button
+        android:text="Jogar"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="NovoJogo"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp">
+
+        <RadioButton
+            android:id="@+id/rbX"
+            android:text="X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rbO"
+            android:text="O"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+</LinearLayout>
